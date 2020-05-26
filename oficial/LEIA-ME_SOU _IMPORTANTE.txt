@@ -1,0 +1,35 @@
+Brasília, 26 de maio de 2020.
+Projeto-Interdisciplinar II
+
+Um sistema de bibliotecas foi criado usando a linguagem de programação PHP 
+e a linguagem de banco de dados MySQL. O sistema é baseado em CRUD.
+
+-> PASSO A PASSO DE COMO ABRIR O SISTEMA NO SEU COMPUTADOR.
+
+1 - PRIMEIRAMENTE LIGUE O XAMPP, DÊ START NO APACHE E NO MYSQL;
+
+2 - EM SEGUIDA, COLOQUE A PASTA DO PROJETO COM TODOS OS ARQUIVOS DENTRO DO HTDOCS, NO DIRETÓRIO DO XAMPP;
+
+3 - ABRA O NAVEGADOR E DIGITE "localhost/phpmyadmin";
+
+4 - CRIE UMA NOVA DATABASE COM O NOME DE "ldk";
+
+5 - IMPORTE PARA ESSA DATABASE O ARQUIVO "banco de dados.sql" QUE ESTÁ DENTRO DA PASTA DO PROJETO;
+
+6 - TODAS AS TABELAS DO PROJETO DEVERÁ APARECER NA DATABASE CRIADA;
+
+7 - ABRA UMA NOVA GUIA NO NAVEGADOR E DIGITE "http://localhost/oficial/projeto_pi/";
+
+8 - ABRIRÁ A TELA DE LOGIN DO SISTEMA, LOGO EM SEGUIDA ATUALIZE A PÁGINA;
+
+9 - ENTRE NO SISTEMA COM O USUÁRIO "admin" E A SENHA DE "123"; e
+
+10 - DEPOIS DE LOGADO. O SISTEMA ESTÁ PRONTO PARA SER USADO. CRIANDO, EDITANDO, LISTANDO E EXCLUINDO OS DADOS.
+
+
+
+
+Cordialmente, Equipe LDK.
+
+"Seja a mudança que você quer ver no mundo."
+			(Mahatma Gandhi)
