@@ -24,10 +24,11 @@
 		  </div>
 		    <?php
       		if($_SESSION['funcionario'] == 'admin'){?>
-		    <input class="btn btn-dark" type="submit" value="Inserir">
+		   <center><input class="btn btn-dark" type="submit" value="Inserir"></center>
 		<?php } else if($_SESSION['funcionario'] != 'admin'){
 			?>
-		    <input class="btn btn-dark" type="submit" value="Inserir" disabled>
+		    <center><input class="btn btn-dark" type="submit" value="Inserir" disabled></center>
+		    <center><p>*NÃO PERMITIDO</p></center>
 		<?php } ?>
 		</form>
 
