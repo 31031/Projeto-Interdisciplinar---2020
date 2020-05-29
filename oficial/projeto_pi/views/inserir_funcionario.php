@@ -16,13 +16,19 @@
 		<form  method="post" action="processa_funcionario.php">
 		  <div class="form-group">
 		    <label for="formGroupExampleInput">Nome do Funcionário: </label>
-		    <input type="text" class="form-control" id="formGroupExampleInput" name="funcionario" placeholder="Insira o nome do funcionário">
+		    <input type="text" class="form-control" id="formGroupExampleInput" name="funcionario" placeholder="Insira o nome do funcionário" required>
 		  </div>
 		  <div class="form-group">
 		    <label for="formGroupExampleInput">Senha: </label>
-		    <input type="password" class="form-control" id="formGroupExampleInput" name="senha" placeholder="Insira a senha">
+		    <input type="password" class="form-control" id="formGroupExampleInput" name="senha" placeholder="Insira a senha" required>
 		  </div>
+		    <?php
+      		if($_SESSION['funcionario'] == 'admin'){?>
 		    <input class="btn btn-dark" type="submit" value="Inserir">
+		<?php } else if($_SESSION['funcionario'] != 'admin'){
+			?>
+		    <input class="btn btn-dark" type="submit" value="Inserir" disabled>
+		<?php } ?>
 		</form>
 
 		
