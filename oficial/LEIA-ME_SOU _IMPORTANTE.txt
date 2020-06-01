@@ -18,7 +18,7 @@ e a linguagem de banco de dados MySQL. O sistema é baseado em CRUD.
 
 6 - TODAS AS TABELAS DO PROJETO DEVERÁ APARECER NA DATABASE CRIADA;
 
-7 - ABRA UMA NOVA GUIA NO NAVEGADOR E DIGITE "http://localhost/oficial/projeto_pi/";
+7 - ABRA UMA NOVA GUIA NO NAVEGADOR E DIGITE "http://localhost/Projeto-Interdisciplinar-ll-2020-master/oficial/projeto_pi";
 
 8 - ABRIRÁ A TELA DE LOGIN DO SISTEMA, LOGO EM SEGUIDA ATUALIZE A PÁGINA;
 
