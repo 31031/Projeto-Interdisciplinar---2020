@@ -13,27 +13,27 @@
 		<form  method="post" action="processa_leitor.php">
 		  <div class="form-group">
 		    <label for="formGroupExampleInput">Nome do novo leitor: </label>
-		    <input type="text" class="form-control" id="formGroupExampleInput" name="nome_leitor" placeholder="Insira o nome do leitor">
+		    <input type="text" class="form-control" id="formGroupExampleInput" name="nome_leitor" placeholder="Insira o nome do leitor" required>
 		  </div> 
 		  <div class="form-group">
 		    <label for="formGroupExampleInput">RG do leitor: </label>
-		    <input type="number" class="form-control" id="formGroupExampleInput" name="rg_leitor" placeholder="Insira o RG do leitor">
+		    <input type="number" class="form-control" id="formGroupExampleInput" name="rg_leitor" placeholder="Insira o RG do leitor" required>
 		  </div>
 		  <div class="form-group">
 		    <label for="formGroupExampleInput">Endereço: </label>
-		    <input type="text" class="form-control" id="formGroupExampleInput" name="endereco_leitor" placeholder="Insira o endereço do leitor">
+		    <input type="text" class="form-control" id="formGroupExampleInput" name="endereco_leitor" placeholder="Insira o endereço do leitor" required>
 		  </div>
 		  <div class="form-group">
 		    <label for="formGroupExampleInput">E-mail: </label>
-		    <input type="email" class="form-control" id="formGroupExampleInput" name="email_leitor" placeholder="Insira o e-mail do leitor">
+		    <input type="email" class="form-control" id="formGroupExampleInput" name="email_leitor" placeholder="Insira o e-mail do leitor" required>
 		  </div>
 		  <div class="form-group">
 		    <label for="formGroupExampleInput">Data de nascimento: </label>
-		    <input type="date" class="form-control" id="formGroupExampleInput" name="data_nascimento" placeholder="Insira a data de nascimento do leitor">
+		    <input type="date" class="form-control" id="formGroupExampleInput" name="data_nascimento" placeholder="Insira a data de nascimento do leitor" required>
 		  </div>
 		  <div class="form-group">
 		    <label for="formGroupExampleInput">Telefone: </label>
-		    <input type="text" class="form-control" id="formGroupExampleInput" name="telefone_leitor" placeholder="Insira o telefone do leitor">
+		    <input type="text" class="form-control" id="formGroupExampleInput" name="telefone_leitor" placeholder="Insira o telefone do leitor" required>
 		  </div>
 		    <center><input class="btn btn-dark" type="submit" value="Inserir"></center>
 		</form>
